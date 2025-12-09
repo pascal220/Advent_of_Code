@@ -24,8 +24,8 @@ def ChallengePart_1():
     print(f"The password is: {zero_counter}")
 
 def ChallengePart_2():
-    input_file = ["L68","L30","R48","L5","R60","L55","L1","L99","R14","L82"]
-    # input_file = open('input.txt', 'r').readlines()
+    # input_file = ["L68","L30","R48","L5","R60","L55","L1","L99","R14","L82"]
+    input_file = open('input.txt', 'r').readlines()
 
     current_value = 50
     zero_counter = 0
