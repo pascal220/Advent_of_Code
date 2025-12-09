@@ -52,7 +52,7 @@ def ChallengePart_2():
 
 def main():
 
-    # ChallengePart_1()
+    ChallengePart_1()
     ChallengePart_2()
     
 
